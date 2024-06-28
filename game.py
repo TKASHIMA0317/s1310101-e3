@@ -1,6 +1,9 @@
 import random
 
 def main():
+    print("Who are you?")
+    user_name = input("> ")
+    print(f"Hello, {user_name}!")
     print("Tossing a coin...")
 
     heads_count = 0
