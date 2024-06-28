@@ -15,6 +15,11 @@ def main():
             tails_count += 1
 
     print(f"Heads: {heads_count}, Tails: {tails_count}")
+    if heads_count > tails_count:
+        print(f"{user_name} won!")
+    elif tails_count > heads_count:
+        print(f"{user_name} lose!")
+
 
 if __name__ == "__main__":
     main()
